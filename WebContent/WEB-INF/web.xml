@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+<web-app>
+
+	<welcome-file-list>
+		<welcome-file>/htmls/LoginPage.html</welcome-file>
+	</welcome-file-list>
+
+
+	<!-- LoginServlet -->
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<!-- LoginServlet -->
+	<!-- LoginTest -->
+	<servlet>
+		<servlet-name>LoginTest</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.LoginTest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginTest</servlet-name>
+		<url-pattern>/LoginTest</url-pattern>
+	</servlet-mapping>
+	<!-- LoginTest -->
+	<!-- LoginSuccessServlet -->
+	<servlet>
+		<servlet-name>HomeServelt</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.HomeServelt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeServelt</servlet-name>
+		<url-pattern>/HomeServelt</url-pattern>
+	</servlet-mapping>
+	<!-- LoginSuccessServlet -->
+
+
+	<!-- Book -->
+	<servlet>
+		<servlet-name>Book</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.Book</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Book</servlet-name>
+		<url-pattern>/Book</url-pattern>
+	</servlet-mapping>
+	<!-- Book -->
+
+
+
+	<!-- SignupServlet -->
+	<servlet>
+		<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.SignupServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignupServlet</servlet-name>
+		<url-pattern>/SignupServlet</url-pattern>
+	</servlet-mapping>
+	<!-- SignupServlet -->
+
+	<!-- Insert -->
+	<servlet>
+		<servlet-name>Insert</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Insert</servlet-name>
+		<url-pattern>/Insert</url-pattern>
+	</servlet-mapping>
+	<!-- Insert -->
+
+	<!-- Update -->
+	<servlet>
+		<servlet-name>UpdateIntake</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.UpdateIntake</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateIntake</servlet-name>
+		<url-pattern>/UpdateIntake</url-pattern>
+	</servlet-mapping>
+	<!-- Update -->
+
+	<!-- Update -->
+	<servlet>
+		<servlet-name>UpdateResult</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.UpdateResult</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateResult</servlet-name>
+		<url-pattern>/UpdateResult</url-pattern>
+	</servlet-mapping>
+	<!-- Update -->
+
+
+	<!-- Update -->
+	<servlet>
+		<servlet-name>UpdateDisplay</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.UpdateDisplay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateDisplay</servlet-name>
+		<url-pattern>/UpdateDisplay</url-pattern>
+	</servlet-mapping>
+	<!-- Update -->
+
+	<!-- Delete -->
+	<servlet>
+		<servlet-name>DeleteIntake</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.DeleteIntake</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteIntake</servlet-name>
+		<url-pattern>/DeleteIntake</url-pattern>
+	</servlet-mapping>
+	<!-- Delete -->
+
+	<!-- Delete -->
+	<servlet>
+		<servlet-name>DeleteDisplay</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.DeleteDisplay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteDisplay</servlet-name>
+		<url-pattern>/DeleteDisplay</url-pattern>
+	</servlet-mapping>
+	<!-- Delete -->
+
+	<!-- ShowBook -->
+	<servlet>
+		<servlet-name>ShowBook</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.ShowBook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowBook</servlet-name>
+		<url-pattern>/ShowBook</url-pattern>
+	</servlet-mapping>
+	<!-- ShowBook -->
+
+	<!-- ShowAll -->
+	<servlet>
+		<servlet-name>ShowAll</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.ShowAll</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowAll</servlet-name>
+		<url-pattern>/ShowAll</url-pattern>
+	</servlet-mapping>
+	<!-- ShowAll -->
+
+	<!-- Exit -->
+	<servlet>
+		<servlet-name>Exit</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.Exit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Exit</servlet-name>
+		<url-pattern>/Exit</url-pattern>
+	</servlet-mapping>
+	<!-- Exit -->
+
+<!-- Logout -->
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.training.servlets.exercise1.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	<!-- Logout -->
+
+
+
+
+</web-app>
